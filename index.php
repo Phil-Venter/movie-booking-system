@@ -1,5 +1,5 @@
 <?php
-require_once('conn.php');
+require_once('Connection.php');
 
 $instance = Connection::getInstance();
 $conn = $instance->getConnection();
